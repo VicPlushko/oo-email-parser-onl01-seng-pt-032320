@@ -12,6 +12,6 @@ class EmailAddressParser
  end
  
  def parse
-   @email_addresses.split(/\w+/ )
+   @email_addresses.scan(/\w+/ )
  end
 end
